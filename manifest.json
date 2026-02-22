@@ -1,0 +1,26 @@
+{
+  "name": "TT Admin",
+  "description": "Better style sheet for and admin functions for tt and portfolio",
+  "version": "0.6.3",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://timetracker.hse.ru/studentsstatements.aspx"],
+      "css": ["statements/style.css"]
+    },
+    {
+      "matches": ["https://timetracker.hse.ru/examinermarks.aspx*"],
+      "css": ["exam/style.css"]
+    }
+  ],
+  "action":   {
+    "default_popup" :   "popup/index.html"
+  },
+  "icons": {
+    "16": "icons/voron_16.png",
+    "32": "icons/voron_32.png",
+    "48": "icons/voron_64.png",
+    "128": "icons/voron_128.png"
+  }
+}

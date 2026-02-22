@@ -1,0 +1,84 @@
+th.concrete-schedule>*, .teacher {
+  writing-mode: vertical-lr;
+  margin-bottom: 10px;
+}
+
+td.cb {
+  max-width: min-content;
+  width: 30px;
+}
+
+.btns-block.clearfix {
+  /* max-width: fit-content; */
+  display: flex;
+  flex-flow: column;
+  min-width: min-content;
+  width: stretch;
+}
+
+div#cplhMainContent_chGroups_chosen {
+  max-width: fit-content;
+  width: auto;
+}
+
+.pull-left.space-right-min.space-top-min {
+  max-width: fit-content;
+  min-width: unset;
+  width:  stretch;
+}
+
+h1 {
+  max-width: fit-content;
+}
+
+div#cplhMainContent_updGroupStudentStatementsInfo {
+  max-width: fit-content;
+  width: min-content;
+  margin: 0;
+}
+
+.page {
+  width: fit-content;
+  min-width: unset !important;
+}
+
+td.btn > *, td.time-out > * {
+  width: 30px;
+}
+
+td.user {
+  white-space: nowrap;
+}
+
+th.concrete-schedule {
+  max-width: min-content;
+  min-width: unset !important;
+}
+
+.discipline {
+  height: 20px;
+}
+
+td.btn > *, td.time-out > *, td.time-in > *{
+width: 20px !important;
+}
+
+td {
+  padding: 1px !important;
+}
+
+th.concrete-schedule>*, .teacher {
+writing-mode: vertical-lr;
+}
+
+th.concrete-schedule>*:first-child {
+  margin-bottom: 10px !important;
+}
+
+th.concrete-schedule>*:nth-child(2) {
+  display: none;
+}
+
+.aspNetDisabled {
+  opacity: 1 !important;
+}
