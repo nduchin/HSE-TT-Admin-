@@ -13,3 +13,5 @@
 - if exam tab exist, don't create new one and focus
 ### .3
 - fix matching project id regex
+### .4
+- updaTe LICENSE to BSD-4-Clause
